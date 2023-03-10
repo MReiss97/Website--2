@@ -6,8 +6,8 @@ body, html {
   }
 
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/1438990067345.jpeg");
-    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/italianfood.jpg");
+    height: 40%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,4 +22,77 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+  }
+  .card-title {
+    font-size: 50px;
+    font-family: 'Bitter', serif;
+    text-align: center;
+}
+
+
+  .card {
+
+  }
+
+  #accordionNav {
+    float: right;
+    width: 199px;
+    background-color: #333;
+    border: 1px solid #111;
+    margin-top: -57px;
+  }
+  #accordionNav h3 {
+    font-size: 14px;
+    margin: 0;
+  }
+  #accordionNav img {
+    padding-bottom: 8px;
+  }
+  #accordionNav a {
+    color: #999;
+    text-decoration: none;
+    display: block;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    outline: none;
+  }
+  #accordionNav a:hover {
+    color: white;
+  }
+  
+  .accordionPanel {
+    margin: 0;
+    padding: 0;
+  }
+  .accordionPanelTab {
+    font-family: 'Bitter', serif;
+    background-color: #555;
+    background-image: url('');
+    margin: 0;
+    cursor: pointer;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .accordionPanelTab:hover {
+    color: #95C8D8;
+  }
+  .accordionPanelContent {
+    font-family: 'Bitter', serif;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 215px;
+    font-size: 20px;
+  }
+  .highlight {
+    color: #95C8D8;
+    background-color: #999;
   }

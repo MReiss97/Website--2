@@ -1,29 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>My Favorite Food</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <link rel = "stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body style="   background-color ;"> 
+  <body style="background-color:#EFE1CE;">
     <div class="hero-image">
       <div class="hero-text">
-        <h1 style="font-size:50px">Favorite Foods</h1>
+        <h1 style="font-size: 50px">Favorite Foods</h1>
       </div>
     </div>
-     <div class="container-fluid">
-      
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            class="card mx-auto border border-light bg-dark justify-content-center"
+            style="margin-top: -20px"
+          >
+            <h5 class="card-title justify-content-center text-light text-center">
+              Italian Food
+            </h5>
+            <div class="d-flex justify-content-center">
+              <img
+                class="card-img-top border border-light"
+                src="/img/italianfood.jpg"
+                alt="Card image cap"
+              />
+            </div>
+            <div class="card-body">
+              <div class="accordionNav">
+                <div class="accordionPanel">
+                  <div
+                    class="accordionPanelTab highlight"
+                    id="beginningLifeTab"
+                    onclick="showBeginningLife();"
+                  >
+                    Beginning of Life
+                  </div>
+                  <div
+                    class="accordionPanelContent"
+                    id="beginningOfLifeContent"
+                  >
+                    <p class="text-light">
+                      Jony Ive was born on February 27, in Chingford, London.
+                      Ive was diagnosed with dyslexia at a young age. Ives
+                      father allowed him to go to his workshop as a Christmas
+                      present and design as well as create whatever he wanted
+                      to. Design has been with Ive essentially his whole life.
+                    </p>
+                  </div>
+                </div>
 
+                <div class="accordionPanel">
+                  <div
+                    class="accordionPanelTab highlight"
+                    id="educationTab"
+                    onclick="showEducation();"
+                  >
+                    Education
+                  </div>
+                  <div class="accordionPanelContent" id="educationTypeContent">
+                    <p class="text-light">
+                      Ive went to Chingford Foundation School and Walton High
+                      School where he mainly studied sculpture and chemistry
+                      during his youth years. Ive then went on to study
+                      industrial design at Newcastle Polytechnic university.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordionPanel">
+                  <div
+                    class="accordionPanelTab highlight"
+                    id="careerTab"
+                    onclick="showCareerStyle();"
+                  >
+                    Career
+                  </div>
+                  <div class="accordionPanelContent" id="careerStyleContent">
+                    <p class="text-light">
+                      Ive went on to begin his first job with Tangerin, a
+                      startup design company in London. Ive designed a toliet,
+                      bidet, and sink, but his design was rejected. Ive didn't
+                      like when people disliked his work, so he resigned. Ive
+                      was later recruited to Apple when Steve Jobs was planning
+                      to return. Ives first design being the Imac was a huge
+                      success. He later went on to design the Iphone and Ipad as
+                      well.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <br />
+    </div>
+    <script src="/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
