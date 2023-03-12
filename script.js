@@ -1,40 +1,31 @@
-document.getElementById("beginningOfLifeContent").style.display = "none"; // Sets the style for the content to nothing
-document.getElementById("iphoneInventionContent").style.display = "none"; // Sets the style for the content to nothing
-document.getElementById("educationTypeContent").style.display = "none"; // Sets the style for the content to nothing
-document.getElementById("careerStyleContent").style.display = "none"; // Sets the style for the content to nothing
-document.getElementById("imacInventionContent").style.display = "none"; // Sets the style for the content to nothing 
-document.getElementById("ipadInventionContent").style.display = "none"; // Sets the style for the content to nothing
+document.getElementById("chickenParmContent").style.display = "none"; // Sets the style for the content to nothing
+document.getElementById("lasagnaContent").style.display = "none"; // Sets the style for the content to nothing
+document.getElementById("vealParmContent").style.display = "none"; // Sets the style for the content to nothing
 
 function hidePanels () {
-    document.getElementById("beginningOfLifeContent").style.display = "none"; // Sets the style for the content to nothing
-document.getElementById("iphoneInventionContent").style.display = "none"; // Sets the style for the content to nothing
-    document.getElementById("educationTypeContent").style.display = "none"; // Sets the style for the content to nothing
-document.getElementById("careerStyleContent").style.display = "none"; // Sets the style for the content to nothing
-document.getElementById("imacInventionContent").style.display = "none"; // Sets the style for the content to nothing
-document.getElementById("ipadInventionContent").style.display = "none"; // Sets the style for the content to nothing
-document.getElementById("beginningLifeTab").className = "accordionPanelTab"; // Adds the tab into the hidePanels function which hides each panel
-document.getElementById("iphoneTab").className = "accordionPanelTab"; // Adds the tab into the hidePanels function which hides each panel
-document.getElementById("educationTab").className = "accordionPanelTab"; // Adds the tab into the hidePanels function which hides each panel
-document.getElementById("careerTab").className = "accordionPanelTab"; // Adds the tab into the hidePanels function which hides each panel
-document.getElementById("imacTab").className = "accordionPanelTab"; // Adds the tab into the hidePanels function which hides each panel 
-document.getElementById("ipadTab").className = "accordionPanelTab"; // Adds the tab into the hidePanels function which hides each panel
+    document.getElementById("chickenParmContent").style.display = "none"; // Sets the style for the content to nothing
+    document.getElementById("lasagnaContent").style.display = "none"; // Sets the style for the content to nothing
+document.getElementById("vealParmContent").style.display = "none"; // Sets the style for the content to nothing
+document.getElementById("chickenParmTab").className = "accordionPanelTab"; // Adds the tab into the hidePanels function which hides each panel
+document.getElementById("LasagnaTab").className = "accordionPanelTab"; // Adds the tab into the hidePanels function which hides each panel
+document.getElementById("vealParmTab").className = "accordionPanelTab"; // Adds the tab into the hidePanels function which hides each panel
 }
 
-function showBeginningLife () {
+function showChickenParm () {
     hidePanels();
-    document.getElementById("beginningOfLifeContent").style.display = "block"; // Opens up the tab when clicked
-    document.getElementById("beginningLifeTab").className = "accordionPanelTab highlight"; // Highlights the tab when clicked
+    document.getElementById("chickenParmContent").style.display = "block"; // Opens up the tab when clicked
+    document.getElementById("chickenParmTab").className = "accordionPanelTab highlight"; // Highlights the tab when clicked
 }
 
-function showEducation () {
+function showLasagna () {
     hidePanels();
-    document.getElementById("educationTypeContent").style.display = "block"; // Opens up the tab when clicked
-    document.getElementById("educationTab").className = "accordionPanelTab highlight"; // Highlights the tab when clicked
+    document.getElementById("lasagnaContent").style.display = "block"; // Opens up the tab when clicked
+    document.getElementById("LasagnaTab").className = "accordionPanelTab highlight"; // Highlights the tab when clicked
 }
 
-function showCareerStyle () {
+function showVealParm () {
     hidePanels();
-    document.getElementById("careerStyleContent").style.display = "block"; // Opens up the tab when clicked
-    document.getElementById("careerTab").className = "accordionPanelTab highlight"; // Highlights the tab when clicked
+    document.getElementById("vealParmContent").style.display = "block"; // Opens up the tab when clicked
+    document.getElementById("vealParmTab").className = "accordionPanelTab highlight"; // Highlights the tab when clicked
 }
 
